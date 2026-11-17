@@ -1,0 +1,1 @@
+(() => {const root=document.documentElement; document.addEventListener('keydown',e=>{if(e.key==='ArrowRight'){document.querySelectorAll('.section')[0]?.scrollIntoView({behavior:'smooth'});} });})();
